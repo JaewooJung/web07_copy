@@ -3,6 +3,7 @@ package net.bitacademy.java41.services;
 import java.util.List;
 
 import net.bitacademy.java41.dao.MemberDao;
+import net.bitacademy.java41.dao.ProjectDao;
 import net.bitacademy.java41.vo.Member;
 
 public class MemberService {
@@ -32,5 +33,8 @@ public class MemberService {
 	
 	public void add(Member member) throws Exception{
 	memberDao.add(member);
+	}
+
+	 
 	}
 }
